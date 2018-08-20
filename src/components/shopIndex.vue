@@ -1,7 +1,7 @@
 <template>
-  <div class="shop-item">
+  <div class="shop-item column is-one-quarter">
     <router-link :to="{ name: 'shopDetail', params: { id: id }}">
-        <img :src="shop.image" width="300px">
+        <img :src="shop.image" width="100%">
         <h1 class="is-size-4">{{shop.name}}</h1>
     </router-link>
   </div>
@@ -23,6 +23,6 @@ export default Vue.extend({
 
 <style scoped>
 .shop-item {
-  margin: 40px;
+  margin: 40px 0;
 }
 </style>

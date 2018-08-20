@@ -1,8 +1,8 @@
 <template>
-  <div class="suggestion">
-    <div class="suggest-item" v-for="(good, key) in goods" :key="key">
+  <div class="suggestion columns is-2 is-multiline">
+    <div class="suggest-ite column is-one-quarter" v-for="(good, key) in goods" :key="key">
         <router-link :to="{ name: 'goodsDetail', params: { id: key }}">
-          <img :src="good.image" width="300px" v-if="good">
+          <img :src="good.image" width="100%" v-if="good">
         </router-link>
     </div>
   </div>
@@ -27,15 +27,7 @@ export default Vue.extend({
 </script>
 
 <style scoped>
-.suggestion {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: center;
-}
-
 .suggest-item {
-  margin: 50px;
+  margin: 10px;
 }
 </style>

@@ -4,7 +4,7 @@
     <h1 class="is-size-3">{{shop.name}}</h1>
     <div class="goods-container">
         <h1 class="is-size-3">ショップで取り扱っている商品</h1>
-        <div class="goods-list">
+        <div class="goods-list columns is-2 is-multiline">
               <goods-index v-for="(good, key) in goods" :key="key" :id="key" :good="good"></goods-index>
         </div>
     </div>
@@ -45,11 +45,5 @@ export default Vue.extend({
 
 .goods-container {
   margin: 100px auto;
-}
-.goods-list {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
 }
 </style>
