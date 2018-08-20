@@ -1,7 +1,7 @@
 <template>
-  <div class="goods-item">
+  <div class="goods-item column is-one-quarter">
     <router-link :to="{ name: 'goodsDetail', params: { id: id }}">
-        <img :src="good.image" width="300px">
+        <img :src="good.image" width="100%">
         <h1 class="goods-name is-size-4">{{good.name}}</h1>
     </router-link>
   </div>
@@ -22,12 +22,13 @@ export default Vue.extend({
 </script>
 
 <style scoped>
+.goods-item {
+  margin: 30px 0;
+}
 .goods-item:hover {
   opacity: 0.7;
 }
-.goods-item {
-  margin: 30px;
-}
+
 .goods-name {
   color: black;
 }

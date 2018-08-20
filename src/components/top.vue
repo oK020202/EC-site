@@ -9,7 +9,7 @@
         <div class="container-title">
           <h1 class="is-size-3">shop</h1>
         </div>
-        <div class="shop-list">
+        <div class="shop-list columns is-2 is-multiline">
           <shop-index v-for="(shop, key) in shops" :key="key" :id="key" :shop="shop"></shop-index>
        </div>
       </div>
@@ -52,10 +52,10 @@ export default {
   margin: auto;
 }
 
-.shop-list {
+/* .shop-list {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-}
+} */
 </style>

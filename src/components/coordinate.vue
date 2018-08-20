@@ -1,8 +1,8 @@
 <template>
   <div class="coordinates">
-    <div class="coordinate-image" v-if="coordinate">
-      <div class="coordinate" v-for="(img, key) in coordinate.images" :key="key">
-          <img :src="img" width="200px">
+    <div class="coordinate-image columns is-2 is-multiline" v-if="coordinate">
+      <div class="coordinate column is-one-quarter" v-for="(img, key) in coordinate.images" :key="key">
+          <img :src="img" width="100%">
       </div>
     </div>
     <div class="coordinate-information" v-if="good">
@@ -39,16 +39,11 @@ export default Vue.extend({
 </script>
 
 <style scoped>
-.coordinate-image {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  margin: 20px;
-  overflow: scroll;
-}
-
 .coordinate-information {
   margin: 50px auto;
   width: 100%;
+}
+.coordinate {
+  margin: 30px 0;
 }
 </style>
