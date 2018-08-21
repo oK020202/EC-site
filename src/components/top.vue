@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="top-main">
-      <div class="top-logo"><img src="../assets/top-logo.jpg" alt="logo" width="100%"></div>
+      <div class="top-logo"><img src="../assets/top-logo.jpg" alt="logo" width="70%"></div>
       <div class="information">
         <p>revostyleは洋服のタグを通してコーディネートなどの提案をしていきます。</p>
       </div>
