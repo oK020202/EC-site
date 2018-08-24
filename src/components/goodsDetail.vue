@@ -6,9 +6,10 @@
             <img :src="good.image" :alt="good.name" width="400px">
         </div>
         <div class="goods-info">
-            <p class="is-size-5">{{good.name}}</p>
-            <p class="is-size-5">¥ {{good.price}}</p>
-            <div class="button is-info"><a href="http://not-conventional.com" class="has-text-white">オンラインで購入</a></div>
+            <p class="is-size-5 goods-info-item">{{good.name}}</p>
+            <p class="is-size-5 goods-info-item">¥ {{good.price}}</p>
+            <p class="is-size-5 goods-info-item">{{good.information}}</p>
+            <div class="button is-info goods-info-item"><a href="http://not-conventional.com" class="has-text-white">オンラインで購入</a></div>
         </div>
     </div>
     <div class="coordinate-container">
@@ -71,6 +72,11 @@ export default Vue.extend({
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+}
+
+.goods-info-item {
+  max-width: 400px;
+  margin: 30px;
 }
 
 .goods-info p {
