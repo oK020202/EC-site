@@ -1,5 +1,6 @@
 <template>
   <div class="goods">
+    <topHeader/>
     <div class="goods-item" v-if="good">
         <div class="goods-image">
             <img :src="good.image" :alt="good.name" width="400px">
@@ -18,6 +19,7 @@
         <h1 class="is-size-4">その他のおすすめ商品</h1>
           <suggestion/>
     </div>
+    <topFooter/>
   </div>
 </template>
 
@@ -25,12 +27,16 @@
 import Vue from 'vue'
 import coordinate from './coordinate.vue';
 import suggestion from './suggestion.vue';
+import topHeader from './topHeader.vue'
+import topFooter from './topFooter.vue'
 import { Repository } from '../../utils/repository.js';
 
 export default Vue.extend({
   components:{
     coordinate,
-    suggestion
+    suggestion,
+    topHeader,
+    topFooter,
   },
   data() {
     return {
@@ -72,7 +78,7 @@ export default Vue.extend({
 }
 
 .coordinate-container {
-  margin: 100px 0;
+  margin: 300px 0;
 }
 
 .coordinate-container h1 {

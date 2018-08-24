@@ -2,7 +2,7 @@
   <div class="shop-item column is-one-quarter">
     <router-link :to="{ name: 'shopDetail', params: { id: id }}">
         <img :src="shop.image" width="100%">
-        <h1 class="is-size-4">{{shop.name}}</h1>
+        <h1 class=" is-size-4">{{shop.name}}</h1>
     </router-link>
   </div>
 </template>
