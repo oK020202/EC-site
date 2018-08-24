@@ -126,14 +126,14 @@ export class Repository {
         '17': {
           shop: '1',
           name: 'T-shirts',
-          price: 10000,
+          price: '6.800',
           image: require('../src/assets/1-17.jpg'),
           information: 'It is cool.'
         },
         '18': {
           shop: '1',
           name: 'jacket',
-          price: '6.800',
+          price: '9.800',
           image: require('../src/assets/1-18.jpg'),
           information: 'It is cool.'
         },
