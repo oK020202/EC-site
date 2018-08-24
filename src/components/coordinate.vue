@@ -5,9 +5,6 @@
           <img :src="img" width="100%">
       </div>
     </div>
-    <div class="coordinate-information" v-if="good">
-      <p>{{good.information}}</p>
-    </div>
   </div>
 </template>
 
@@ -19,19 +16,16 @@ export default Vue.extend({
   name: 'coordinate',
     data() {
       return {
-        good: null,
         coordinate: null
       }
   },
   mounted() {
     const repository = new Repository()
-    this.good = repository.getGood(this.$route.params.id)
     this.coordinate = repository.getCoordinate(this.$route.params.id)
   },
     watch: {
     '$route' (to, from) {
         const repository = new Repository()
-        this.good = repository.getGood(to.params.id)
         this.coordinate = repository.getCoordinate(to.params.id)
     }
   }

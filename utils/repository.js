@@ -313,22 +313,22 @@ export class Repository {
           images: [
             require('../src/assets/1-7-1.jpg'),
             require('../src/assets/1-7-2.jpg'),
+            require('../src/assets/1-7-3.jpg'),
+            require('../src/assets/1-7-4.jpg')
+
           ]
         },
         '8': {
           goods: '8',
           images: [
             require('../src/assets/1-8-1.jpg'),
-            require('../src/assets/1-8-2.jpg'),
-            require('../src/assets/1-8-3.jpg'),
-            require('../src/assets/1-8-4.jpg')
+            require('../src/assets/1-8-2.jpg')
           ]
         },
         '9': {
           goods: '9',
           images: [
-            require('../src/assets/1-9-1.jpg'),
-            require('../src/assets/1-9-2.jpg')
+            require('../src/assets/1-9-1.jpg')
           ]
         },
         '10': {
@@ -340,7 +340,9 @@ export class Repository {
         '11': {
           goods: '11',
           images: [
-            require('../src/assets/1-11-1.jpg')
+            require('../src/assets/1-11-1.jpg'),
+            require('../src/assets/1-11-2.jpg'),
+            require('../src/assets/1-11-3.jpg')
           ]
         },
         '12': {
@@ -348,7 +350,9 @@ export class Repository {
           images: [
             require('../src/assets/1-12-1.jpg'),
             require('../src/assets/1-12-2.jpg'),
-            require('../src/assets/1-12-3.jpg')
+            require('../src/assets/1-12-3.jpg'),
+            require('../src/assets/1-12-4.jpg'),
+            require('../src/assets/1-12-5.jpg')
           ]
         },
         '13': {
@@ -356,9 +360,6 @@ export class Repository {
           images: [
             require('../src/assets/1-13-1.jpg'),
             require('../src/assets/1-13-2.jpg'),
-            require('../src/assets/1-13-3.jpg'),
-            require('../src/assets/1-13-4.jpg'),
-            require('../src/assets/1-13-5.jpg')
           ]
         },
         '14': {
@@ -389,8 +390,6 @@ export class Repository {
           images: [
             require('../src/assets/1-17-1.jpg'),
             require('../src/assets/1-17-2.jpg'),
-            require('../src/assets/1-17-3.jpg'),
-            require('../src/assets/1-17-4.jpg')
           ]
         },
         '18': {
@@ -412,6 +411,7 @@ export class Repository {
           goods: '20',
           images: [
             require('../src/assets/1-20-1.jpg'),
+            require('../src/assets/1-20-2.jpg')
           ]
         },
         '21': {
@@ -423,8 +423,7 @@ export class Repository {
         '22': {
           goods: '22',
           images: [
-            require('../src/assets/1-22-1.jpg'),
-            require('../src/assets/1-22-2.jpg')
+            require('../src/assets/1-22-1.jpg')
           ]
         },
         '23': {
