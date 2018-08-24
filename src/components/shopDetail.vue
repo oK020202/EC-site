@@ -1,4 +1,6 @@
 <template>
+<div>
+  <topHeader/>
   <div class="shop-container" v-if="shop">
     <img :src="shop.image" width="400px">
     <h1 class="is-size-3">{{shop.name}}</h1>
@@ -9,11 +11,16 @@
         </div>
     </div>
   </div>
+  <topFooter/>
+</div>
+  
 </template>
 
 <script lang="js">
 import Vue from 'vue';
 import goodsIndex from './goodsIndex.vue';
+import topHeader from './topHeader.vue'
+import topFooter from './topFooter.vue'
 import { Repository } from '../../utils/repository.js';
 
 
@@ -22,6 +29,9 @@ export default Vue.extend({
   name:'shopDetail',
   components: {
     goodsIndex,
+    topHeader,
+    topFooter
+
   },
 
   data() {

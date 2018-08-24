@@ -41,7 +41,7 @@ export default Vue.extend({
 <style scoped>
 .coordinate-information {
   margin: 50px auto;
-  width: 100%;
+  width: 50%;
 }
 .coordinate {
   margin: 30px 0;
