@@ -19,7 +19,7 @@
                 ブランド
               </a>
               <div class="navbar-dropdown is-boxed">
-                <a class="navbar-item" href="/shop/1">
+                <a class="navbar-item" href="/#/shop/1">
                   Not conventional
                 </a>
                 <!-- <a class="navbar-item" href="https://bulma.io/documentation/modifiers/syntax/">
