@@ -48,7 +48,7 @@ export class Repository {
         },
         '6': {
           shop: '1',
-          name: 'socks',
+          name: 'jacket',
           price: '9.800',
           image: require('../src/assets/1-6.jpg'),
           information: 'It is cool.'
@@ -62,7 +62,7 @@ export class Repository {
         },
         '8': {
           shop: '1',
-          name: 'socks',
+          name: 'pants',
           price: '7.800',
           image: require('../src/assets/1-8.jpg'),
           information: 'It is cool.'
@@ -76,179 +76,69 @@ export class Repository {
         },
         '10': {
           shop: '1',
-          name: 'shirts',
+          name: 'T-shirts',
           price: '11.800',
           image: require('../src/assets/1-10.jpg'),
           information: 'It is cool.'
         },
         '11': {
           shop: '1',
-          name: 'socks',
+          name: 'shirts',
           price: '10.800',
           image: require('../src/assets/1-11.jpg'),
           information: 'It is cool.'
         },
         '12': {
           shop: '1',
-          name: 'pants',
+          name: 'jacket',
           price: '11.800',
           image: require('../src/assets/1-12.jpg'),
           information: 'It is cool.'
         },
         '13': {
           shop: '1',
-          name: 'shirts',
+          name: 'T-shirts',
           price: '5.800',
           image: require('../src/assets/1-13.jpg'),
           information: 'It is cool.'
         },
         '14': {
           shop: '1',
-          name: 'socks',
+          name: 'T-shirts',
           price: '5.800',
           image: require('../src/assets/1-14.jpg'),
           information: 'It is cool.'
         },
         '15': {
           shop: '1',
-          name: 'pants',
+          name: 'T-shirts',
           price: '6.800',
           image: require('../src/assets/1-15.jpg'),
           information: 'It is cool.'
         },
         '16': {
           shop: '1',
-          name: 'shirts',
+          name: 'T-shirts',
           price: '6.800',
           image: require('../src/assets/1-16.jpg'),
           information: 'It is cool.'
         },
         '17': {
           shop: '1',
-          name: 'socks',
+          name: 'T-shirts',
           price: 10000,
           image: require('../src/assets/1-17.jpg'),
           information: 'It is cool.'
         },
         '18': {
           shop: '1',
-          name: 'pants',
-          price: 100,
+          name: 'jacket',
+          price: '6.800',
           image: require('../src/assets/1-18.jpg'),
           information: 'It is cool.'
         },
-        '19': {
-          shop: '1',
-          name: 'shirts',
-          price: 1000,
-          image: require('../src/assets/1-19.jpg'),
-          information: 'It is cool.'
-        },
-        '20': {
-          shop: '1',
-          name: 'socks',
-          price: 10000,
-          image: require('../src/assets/1-20.jpg'),
-          information: 'It is cool.'
-        },
-        '21': {
-          shop: '1',
-          name: 'pants',
-          price: 100,
-          image: require('../src/assets/1-21.jpg'),
-          information: 'It is cool.'
-        },
-        '22': {
-          shop: '1',
-          name: 'shirts',
-          price: 1000,
-          image: require('../src/assets/1-22-1.jpg'),
-          information: 'It is cool.'
-        },
-        '23': {
-          shop: '1',
-          name: 'socks',
-          price: 10000,
-          image: require('../src/assets/1-23-1.jpg'),
-          information: 'It is cool.'
-        },
-        '24': {
-          shop: '1',
-          name: 'pants',
-          price: 100,
-          image: require('../src/assets/1-24-1.jpg'),
-          information: 'It is cool.'
-        },
-        '25': {
-          shop: '1',
-          name: 'shirts',
-          price: 1000,
-          image: require('../src/assets/1-25-1.jpg'),
-          information: 'It is cool.'
-        },
-        '26': {
-          shop: '1',
-          name: 'socks',
-          price: 10000,
-          image: require('../src/assets/1-26-1.jpg'),
-          information: 'It is cool.'
-        },
-        '27': {
-          shop: '1',
-          name: 'pants',
-          price: 100,
-          image: require('../src/assets/1-27-1.jpg'),
-          information: 'It is cool.'
-        },
-        '28': {
-          shop: '1',
-          name: 'shirts',
-          price: 1000,
-          image: require('../src/assets/1-28-1.jpg'),
-          information: 'It is cool.'
-        },
-        '29': {
-          shop: '1',
-          name: 'socks',
-          price: 10000,
-          image: require('../src/assets/1-29-1.jpg'),
-          information: 'It is cool.'
-        },
-        '30': {
-          shop: '1',
-          name: 'pants',
-          price: 100,
-          image: require('../src/assets/1-30-1.jpg'),
-          information: 'It is cool.'
-        },
-        '31': {
-          shop: '1',
-          name: 'shirts',
-          price: 1000,
-          image: require('../src/assets/1-31-1.jpg'),
-          information: 'It is cool.'
-        },
-        '32': {
-          shop: '1',
-          name: 'socks',
-          price: 10000,
-          image: require('../src/assets/1-32-1.jpg'),
-          information: 'It is cool.'
-        },
-        '33': {
-          shop: '1',
-          name: 'pants',
-          price: 100,
-          image: require('../src/assets/1-33-1.jpg'),
-          information: 'It is cool.'
-        },
-        '34': {
-          shop: '1',
-          name: 'shirts',
-          price: 1000,
-          image: require('../src/assets/1-34-1.jpg'),
-          information: 'It is cool.'
-        },
+
+
       },
 
       coordinates: {
@@ -399,124 +289,10 @@ export class Repository {
             require('../src/assets/1-18-2.jpg')
           ]
         },
-        '19': {
-          goods: '19',
-          images: [
-            require('../src/assets/1-19-1.jpg'),
-            require('../src/assets/1-19-2.jpg'),
-            require('../src/assets/1-19-3.jpg')
-          ]
-        },
-        '20': {
-          goods: '20',
-          images: [
-            require('../src/assets/1-20-1.jpg'),
-            require('../src/assets/1-20-2.jpg')
-          ]
-        },
-        '21': {
-          goods: '21',
-          images: [
-            require('../src/assets/1-21-1.jpg')
-          ]
-        },
-        '22': {
-          goods: '22',
-          images: [
-            require('../src/assets/1-22-1.jpg')
-          ]
-        },
-        '23': {
-          goods: '23',
-          images: [
-            require('../src/assets/1-23-1.jpg'),
-            require('../src/assets/1-23-2.jpg')
-          ]
-        },
-        '24': {
-          goods: '24',
-          images: [
-            require('../src/assets/1-24-1.jpg'),
-            require('../src/assets/1-24-2.jpg')
-          ]
-        },
-        '25': {
-          goods: '25',
-          images: [
-            require('../src/assets/1-25-1.jpg'),
-            require('../src/assets/1-25-2.jpg')
-          ]
-        },
-        '26': {
-          goods: '26',
-          images: [
-            require('../src/assets/1-26-1.jpg'),
-            require('../src/assets/1-26-2.jpg'),
-            require('../src/assets/1-26-3.jpg')
-          ]
-        },
-        '27': {
-          goods: '27',
-          images: [
-            require('../src/assets/1-27-1.jpg'),
-            require('../src/assets/1-27-2.jpg')
-          ]
-        },
-        '28': {
-          goods: '28',
-          images: [
-            require('../src/assets/1-28-1.jpg')
-          ]
-        },
-        '29': {
-          goods: '29',
-          images: [
-            require('../src/assets/1-29-1.jpg'),
-            require('../src/assets/1-29-2.jpg')
-          ]
-        },
-        '30': {
-          goods: '30',
-          images: [
-            require('../src/assets/1-30-1.jpg'),
-            require('../src/assets/1-30-2.jpg'),
-            require('../src/assets/1-30-3.jpg')
-          ]
-        },
-        '31': {
-          goods: '31',
-          images: [
-            require('../src/assets/1-31-1.jpg'),
-            require('../src/assets/1-31-2.jpg')
-          ]
-        },
-        '32': {
-          goods: '32',
-          images: [
-            require('../src/assets/1-32-1.jpg'),
-            require('../src/assets/1-32-2.jpg'),
-            require('../src/assets/1-32-3.jpg'),
-            require('../src/assets/1-32-4.jpg'),
-            require('../src/assets/1-32-5.jpg'),
-            require('../src/assets/1-32-6.jpg')
 
-          ]
-        },
-        '33': {
-          goods: '33',
-          images: [
-            require('../src/assets/1-33-1.jpg')
-          ]
-        },
-        '34': {
-          goods: '34',
-          images: [
-            require('../src/assets/1-34-1.jpg'),
-            require('../src/assets/1-34-2.jpg'),
-          ]
-        }
       }
     }
+
 
   }
   connectGoods(shop_id) {
