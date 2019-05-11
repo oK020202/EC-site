@@ -5,11 +5,10 @@
   "author": "Masato TSUTSUMI <masato.11.soccer@gmail.com>",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint",
-    "postinstall": "yarn build",
-    "start": "node server.js"
+    "postinstall": "npm run build",
+    "start": "node build/dev-server.js",
+    "dev": "node build/dev-server.js",
+    "build": "node build/build.js"
   },
   "dependencies": {
     "express": "^4.16.4",
@@ -50,6 +49,7 @@
     "vue-template-compiler": "^2.5.17",
     "webpack": "^3.6.0",
     "webpack-bundle-analyzer": "^2.9.0",
+    "webpack-cli": "^3.3.2",
     "webpack-dev-server": "^2.9.1",
     "webpack-merge": "^4.1.0"
   },
