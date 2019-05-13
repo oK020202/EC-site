@@ -6,8 +6,8 @@
   "private": true,
   "scripts": {
     "postinstall": "npm run build",
-    "start": "node build/dev-server.js",
-    "dev": "node build/dev-server.js",
+    "start": "node server.js",
+    "dev": "node server.js",
     "build": "node build/build.js"
   },
   "dependencies": {
